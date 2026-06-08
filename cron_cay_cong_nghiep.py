@@ -19,7 +19,8 @@ DANH_SACH_NGUON = {
     "khoai-lang": {"ten": "Giá Khoai Lang", "url": "https://banggianongsan.com/gia-khoai-lang/", "nhom_macdinh": "khoai_lang", "don_vi": "đ/kg"},
     "macca": {"ten": "Giá Mắc Ca", "url": "https://banggianongsan.com/bang-gia-macca-hom-nay/", "nhom_macdinh": "macca", "don_vi": "đ/kg"},
     "bo": {"ten": "Giá Bơ", "url": "https://banggianongsan.com/bang-gia-bo-hom-nay/", "nhom_macdinh": "bo", "don_vi": "đ/kg"},
-    "sau-rieng": {"ten": "Giá Sầu Riêng", "url": "https://banggianongsan.com/bang-gia-sau-rieng/", "nhom_macdinh": "sau_rieng", "don_vi": "đ/kg"}
+    "sau-rieng": {"ten": "Giá Sầu Riêng", "url": "https://banggianongsan.com/bang-gia-sau-rieng/", "nhom_macdinh": "sau_rieng", "don_vi": "đ/kg"},
+    "gao": {"ten": "Giá Lúa Gạo", "url": "https://banggianongsan.com/gia-lua-gao-hom-nay/", "nhom_macdinh": "gao", "don_vi": "đ/kg"}
 }
 
 def xu_ly_gia(gia_raw):
