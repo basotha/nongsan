@@ -8,26 +8,35 @@ app = Flask(__name__)
 
 @app.route('/robots.txt')
 def robots_txt():
-    path_static = os.path.join(app.root_path, 'static')
-    file_path = os.path.join(path_static, 'robots.txt')
-    
-    # Kiểm tra nếu file tồn tại thì mới trả về, nếu không tồn tại trả về text trống thay vì sập web
-    if os.path.exists(file_path):
-        return send_from_directory(path_static, 'robots.txt')
-    return "User-agent: *\nAllow: /", 200, {'Content-Type': 'text/plain'}
+    # Trả về nội dung chuỗi text trực tiếp, không cần đọc file từ ổ đĩa
+    noi_dung_robots = "User-agent: *\nAllow: /\nAllow: /api/gia-nong-san\nDisallow: /data/\nSitemap: https://nongsan.timnhanh.top/sitemap.xml"
+    return noi_dung_robots, 200, {'Content-Type': 'text/plain; charset=utf-8'}
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    path_static = os.path.join(app.root_path, 'static')
-    file_path = os.path.join(path_static, 'sitemap.xml')
-    
-    # Kiểm tra nếu tồn tại file sitemap thì trả về file XML chuẩn
-    if os.path.exists(file_path):
-        return send_from_directory(path_static, 'sitemap.xml')
-        
-    # Nếu chưa có file sitemap, tự động tạo chuỗi XML trống để không bị lỗi 500
-    chuoi_xml_trong = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>'
-    return chuoi_xml_trong, 200, {'Content-Type': 'application/xml'}
+    # Trả về nội dung cấu trúc XML trực tiếp, thách thức mọi lỗi phân quyền trên VPS
+    noi_dung_sitemap = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nongsan.timnhanh.top/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nongsan.timnhanh.top/privacy-policy</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nongsan.timnhanh.top/terms-of-service</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>"""
+    return noi_dung_sitemap, 200, {'Content-Type': 'application/xml; charset=utf-8'}
 @app.route('/')
 def index():
     return render_template('index.html')
