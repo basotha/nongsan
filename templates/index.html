@@ -14,14 +14,14 @@
         .ad-placeholder { background: #fdf8e2; border: 1px dashed #ffc107; min-height: 100px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; color: #856404; border-radius: 8px; }
         .main-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         
-        /* Style cho Menu Nông sản thông minh mở rộng */
+        /* Cấu hình hiển thị Menu lưới mặc định trên máy tính (PC) */
         .nongsan-grid { 
             display: grid; 
             grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); 
             gap: 10px; 
             justify-content: center; 
         }
-        .nongsan-item { background: #fff; border: 1px solid #dee2e6; border-radius: 10px; padding: 12px 5px; text-align: center; cursor: pointer; transition: all 0.2s; font-size: 0.85rem; font-weight: 600; }
+        .nongsan-item { background: #fff; border: 1px solid #dee2e6; border-radius: 10px; padding: 12px 5px; text-align: center; cursor: pointer; transition: all 0.2s; font-size: 0.85rem; font-weight: 600; white-space: nowrap; }
         .nongsan-item:hover, .nongsan-item.active { background: #198754; color: white; border-color: #198754; box-shadow: 0 4px 8px rgba(25,135,84,0.3); }
         .nongsan-item i { font-size: 1.4rem; display: block; margin-bottom: 5px; }
         
@@ -29,9 +29,35 @@
         .down { color: #198754; font-weight: bold; }
         .equal { color: #6c757d; }
         
-        /* Định dạng các dòng phân cấp tiêu đề trong bảng dữ liệu */
         .sub-header-trongnuoc { background-color: #e8f5e9 !important; color: #1b5e20; font-weight: bold; }
         .sub-header-quocte { background-color: #fff3e0 !important; color: #e65100; font-weight: bold; }
+
+        /* ======================================================== */
+        /* TỐI ƯU CƠ CHẾ TRƯỢT NGANG (SCROLL HANG NGANG) TRÊN MOBILE */
+        /* ======================================================== */
+        @media (max-width: 991px) {
+            .nongsan-grid {
+                display: flex;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                padding-bottom: 10px;
+                justify-content: flex-start;
+                -webkit-overflow-scrolling: touch; /* Vuốt mượt trên iOS */
+                gap: 8px;
+            }
+            .nongsan-item {
+                flex: 0 0 95px; /* Giữ cố định kích thước nút không cho co bóp */
+                padding: 10px 5px;
+            }
+            /* Thiết kế thanh cuộn nhỏ tinh tế cho menu */
+            .nongsan-grid::-webkit-scrollbar {
+                height: 5px;
+            }
+            .nongsan-grid::-webkit-scrollbar-thumb {
+                background: #cbd5e1;
+                border-radius: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -67,7 +93,7 @@
     </div>
 
     <div class="row g-3">
-        <div class="col-lg-8">
+        <div class="col-lg-8" id="vung-bang-gia">
             <div class="main-card">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h5 class="fw-bold text-success mb-0" id="ten-danh-muc"><i class="fa-solid fa-chart-line"></i> Bảng Giá Chi Tiết</h5>
@@ -127,12 +153,10 @@
 <script>
     let globalData = [];
 
-    // Hàm định dạng phân cách hàng nghìn (Ví dụ: 85000 -> 85.000)
     function formatMoney(num) {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
-    // Kết nối gọi dữ liệu từ API Flask backend
     async function loadData() {
         try {
             const response = await fetch('/api/gia-nong-san');
@@ -141,7 +165,6 @@
             globalData = resData.danh_sach || [];
             document.getElementById('ngay-hien-tai').innerText = resData.ngay_cap_nhat || '--/--/----';
             
-            // Mặc định ban đầu hiển thị tất cả dữ liệu
             hienThiBangGia('tat-ca');
         } catch (error) {
             console.error("Lỗi kết nối dữ liệu:", error);
@@ -149,59 +172,46 @@
         }
     }
 
-    // Logic cốt lõi xử lý và chia tách bảng giá nông sản công nghiệp
     function hienThiBangGia(loai) {
         const tbody = document.getElementById('data-table-body');
         tbody.innerHTML = '';
 
-        // 1. Phân loại mảng trong nước
         let trongNuocData = [];
         if (loai === 'tat-ca') {
             trongNuocData = globalData.filter(item => item.nhom !== 'quoc_te');
         } else if (loai === 'quoc_te') {
-            trongNuocData = []; // Bấm xem riêng mảng thế giới thì rỗng phần nội địa
+            trongNuocData = [];
         } else {
             trongNuocData = globalData.filter(item => item.nhom === loai);
         }
 
-        // 2. Gom nhóm mảng quốc tế thông minh ứng với từng tab lựa chọn
         let quocTeData = [];
         if (loai === 'tat-ca' || loai === 'quoc_te') {
             quocTeData = globalData.filter(item => item.nhom === 'quoc_te');
         } else if (loai === 'cafe') {
-            // Tab cafe hiển thị giá sàn London / New York đi kèm ở cuối bảng
             quocTeData = globalData.filter(item => item.nhom === 'quoc_te' && (item.ten.includes('Robusta') || item.ten.includes('Arabica')));
         } else if (loai === 'cao_su') {
-            // Tab cao su lấy các dữ liệu liên quan sàn Tokyo/Thế giới
             quocTeData = globalData.filter(item => item.nhom === 'quoc_te' && item.ten.toLowerCase().includes('cao su'));
         }
 
-        // Kiểm tra xem có dữ liệu nào không
         if (trongNuocData.length === 0 && quocTeData.length === 0) {
             tbody.innerHTML = `<tr><td colspan="4" class="text-center text-muted py-4">Không có dữ liệu cho danh mục này</td></tr>`;
             return;
         }
 
-        // --- IN KHỐI DỮ LIỆU GIÁ TRONG NƯỚC ---
         if (trongNuocData.length > 0) {
             if (loai === 'tat-ca') {
                 tbody.innerHTML += `<tr class="sub-header-trongnuoc"><td colspan="4"><i class="fa-solid fa-map-location-dot"></i> GIÁ NÔNG SẢN TRONG NƯỚC</td></tr>`;
             }
-            trongNuocData.forEach(item => {
-                appendRowToTable(tbody, item);
-            });
+            trongNuocData.forEach(item => { appendRowToTable(tbody, item); });
         }
 
-        // --- IN KHỐI THỊ TRƯỜNG QUỐC TẾ (ĐẨY XUỐNG CHÂN BẢNG) ---
         if (quocTeData.length > 0) {
             tbody.innerHTML += `<tr class="sub-header-quocte"><td colspan="4"><i class="fa-solid fa-globe"></i> THỊ TRƯỜNG QUỐC TẾ / TỶ GIÁ TRỰC TUYẾN</td></tr>`;
-            quocTeData.forEach(item => {
-                appendRowToTable(tbody, item);
-            });
+            quocTeData.forEach(item => { appendRowToTable(tbody, item); });
         }
     }
 
-    // Hàm phụ trợ hỗ trợ kết xuất (render) thẻ tr
     function appendRowToTable(tbody, item) {
         let icon = item.bien_dong === 'up' ? '<i class="fa-solid fa-arrow-trend-up"></i> Tăng' : 
                    item.bien_dong === 'down' ? '<i class="fa-solid fa-arrow-trend-down"></i> Giảm' : '<i class="fa-solid fa-minus"></i> -';
@@ -217,20 +227,24 @@
         `;
     }
 
-    // Xử lý sự kiện khi người dùng tương tác chuyển đổi Menu điều hướng nông sản
     function locNongSan(loai, element) {
-        // Đổi trạng thái hiển thị nút bấm active
         document.querySelectorAll('.nongsan-item').forEach(el => el.classList.remove('active'));
         element.classList.add('active');
         
-        // Cập nhật text tiêu đề động theo tên nút
         document.getElementById('ten-danh-muc').innerText = "Bảng Giá: " + element.innerText;
-        
-        // Gọi bộ lọc vẽ lại bảng
         hienThiBangGia(loai);
+
+        // ========================================================
+        // TỰ ĐỘNG CUỘN XUỐNG VÙNG BẢNG GIÁ KHI TRÊN THIẾT BỊ MOBILE
+        // ========================================================
+        if (window.innerWidth < 992) {
+            document.getElementById('vung-bang-gia').scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+            });
+        }
     }
 
-    // Tự động khởi chạy nạp dữ liệu khi mở trang tin tức nông sản
     loadData();
 </script>
 </body>
