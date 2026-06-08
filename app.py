@@ -4,6 +4,15 @@ import os
 
 app = Flask(__name__)
 
+# --- CẤU HÌNH ROBOTS.TXT VÀ SITEMAP.XML CHO SEO ---
+
+@app.route('/robots.txt')
+def robots_txt():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt')
+
+@app.route('/sitemap.xml')
+def sitemap_xml():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
 @app.route('/')
 def index():
     return render_template('index.html')
