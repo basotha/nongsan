@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /api/gia-nong-san
+Disallow: /data/
+
+# Đường dẫn trỏ tới file Sitemap của bạn
+Sitemap: https://nongsan.timnhanh.top/sitemap.xml
