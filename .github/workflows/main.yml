@@ -1,0 +1,35 @@
+name: Tự Động Cập Nhật Giá Nông Sản
+
+on:
+  schedule:
+    # 23:00 UTC tương đương 06:00 sáng giờ Việt Nam (UTC+7)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Nút bấm để bạn có thể tự kích hoạt chạy bằng tay trên web GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Kiểm tra mã nguồn kho lưu trữ
+      uses: actions/checkout@v3
+
+    - name: Thiết lập môi trường Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Cài đặt các thư viện cần thiết
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Khởi chạy bot cào dữ liệu nông sản
+      run: python cron_cay_cong_nghiep.py
+
+    - name: Tự động Commit và Push dữ liệu mới lên kho
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add data/nongsan.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Bot: Tự động cập nhật giá nông sản trực tuyến [$(date +'%d/%m/%Y')]" && git push)
