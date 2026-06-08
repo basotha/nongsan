@@ -8,11 +8,26 @@ app = Flask(__name__)
 
 @app.route('/robots.txt')
 def robots_txt():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt')
+    path_static = os.path.join(app.root_path, 'static')
+    file_path = os.path.join(path_static, 'robots.txt')
+    
+    # Kiểm tra nếu file tồn tại thì mới trả về, nếu không tồn tại trả về text trống thay vì sập web
+    if os.path.exists(file_path):
+        return send_from_directory(path_static, 'robots.txt')
+    return "User-agent: *\nAllow: /", 200, {'Content-Type': 'text/plain'}
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+    path_static = os.path.join(app.root_path, 'static')
+    file_path = os.path.join(path_static, 'sitemap.xml')
+    
+    # Kiểm tra nếu tồn tại file sitemap thì trả về file XML chuẩn
+    if os.path.exists(file_path):
+        return send_from_directory(path_static, 'sitemap.xml')
+        
+    # Nếu chưa có file sitemap, tự động tạo chuỗi XML trống để không bị lỗi 500
+    chuoi_xml_trong = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>'
+    return chuoi_xml_trong, 200, {'Content-Type': 'application/xml'}
 @app.route('/')
 def index():
     return render_template('index.html')
