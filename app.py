@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, send_from_directory
 import json
 import os
 
@@ -8,35 +8,12 @@ app = Flask(__name__)
 
 @app.route('/robots.txt')
 def robots_txt():
-    # Trả về nội dung chuỗi text trực tiếp, không cần đọc file từ ổ đĩa
-    noi_dung_robots = "User-agent: *\nAllow: /\nAllow: /api/gia-nong-san\nDisallow: /data/\nSitemap: https://nongsan.timnhanh.top/sitemap.xml"
-    return noi_dung_robots, 200, {'Content-Type': 'text/plain; charset=utf-8'}
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt')
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
-    # Trả về nội dung cấu trúc XML trực tiếp, thách thức mọi lỗi phân quyền trên VPS
-    noi_dung_sitemap = """<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nongsan.timnhanh.top/</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://nongsan.timnhanh.top/privacy-policy</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nongsan.timnhanh.top/terms-of-service</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-</urlset>"""
-    return noi_dung_sitemap, 200, {'Content-Type': 'application/xml; charset=utf-8'}
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -83,6 +60,10 @@ def privacy_policy():
 @app.route('/terms-of-service')
 def terms_of_service():
     return render_template('terms.html')
+@app.route('/gioi-thieu-co-so-Hoang-Gia-lai')
+def gioi_thieu_co_so_anh_hoang():
+    # Trả về file about.html vừa tạo trong thư mục templates
+    return render_template('abouthoang.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(debug=True)
