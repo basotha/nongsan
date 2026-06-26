@@ -6,56 +6,56 @@
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Nông",
-                "gia": 88700,
+                "gia": 88800,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Lắk",
-                "gia": 88500,
+                "gia": 88700,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Gia Lai",
-                "gia": 88500,
+                "gia": 88700,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Lâm Đồng",
-                "gia": 88200,
+                "gia": 88300,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta London Tháng 7-2026",
-                "gia": 3580,
+                "gia": 3707,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta London Tháng 9-2026",
-                "gia": 3556,
+                "gia": 3605,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica New York Tháng 7-2026",
-                "gia": 28795,
+                "gia": 29155,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica New York Tháng 9-2026",
-                "gia": 27595,
+                "gia": 27720,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             }
@@ -283,7 +283,7 @@
             {
                 "nhom": "cao_su",
                 "ten": "Cao Su Bà Rịa - Mủ Nước TSC 25 - < 30",
-                "gia": 420,
+                "gia": 447,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -297,7 +297,7 @@
             {
                 "nhom": "cao_su",
                 "ten": "Cao Su Bà Rịa - Mủ Đông DRC ≥ 50%",
-                "gia": 18100,
+                "gia": 18000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -311,21 +311,21 @@
             {
                 "nhom": "cao_su",
                 "ten": "Cao Su Bà Rịa - Mủ Đông DRC 35 - 45%",
-                "gia": 14600,
+                "gia": 13500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cao_su",
                 "ten": "Cao Su Bình Long - Mủ Nước Tại Nhà Máy",
-                "gia": 505,
+                "gia": 545,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cao_su",
                 "ten": "Cao Su Bình Long - Mủ Nước Tại Đội Sản Xuất",
-                "gia": 495,
+                "gia": 535,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -662,14 +662,14 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 75000,
+                "gia": 70500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 55000,
+                "gia": 50500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -704,28 +704,28 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái VIP loại A  - đồng/kg",
-                "gia": 80000,
+                "gia": 76000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái VIP loại B  - đồng/kg",
-                "gia": 60000,
+                "gia": 56000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 80000,
+                "gia": 76000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 60000,
+                "gia": 56000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -746,7 +746,7 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Musang King loại A  - đồng/kg",
-                "gia": 82500,
+                "gia": 77500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -760,7 +760,7 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 80000,
+                "gia": 76000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -774,7 +774,7 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 78500,
+                "gia": 75000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -788,14 +788,14 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 78500,
+                "gia": 75000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 58500,
+                "gia": 55000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             }
