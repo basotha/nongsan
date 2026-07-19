@@ -1,33 +1,33 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Nông",
-                "gia": 98500,
+                "gia": 96300,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Lắk",
-                "gia": 98400,
+                "gia": 96200,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Gia Lai",
-                "gia": 98400,
+                "gia": 96200,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Lâm Đồng",
-                "gia": 97900,
+                "gia": 95700,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -63,26 +63,26 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu Gia Lai",
-                "gia": 136500,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "tieu",
-                "ten": "Hồ Tiêu Đồng Nai",
                 "gia": 137000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "tieu",
-                "ten": "Hồ Tiêu TP. Hồ Chí Minh",
+                "ten": "Hồ Tiêu Đồng Nai",
                 "gia": 137500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "tieu",
+                "ten": "Hồ Tiêu TP. Hồ Chí Minh",
+                "gia": 138000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -110,56 +110,56 @@
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Indonesia",
-                "gia": 7079,
+                "gia": 6773,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Brazil ASTA 570",
-                "gia": 5900,
+                "gia": 5800,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Malaysia",
-                "gia": 9350,
+                "gia": 9300,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Việt Nam 500 g/l",
-                "gia": 5850,
+                "gia": 5970,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Việt Nam 550 g/l",
-                "gia": 5950,
+                "gia": 6050,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Trắng Indonesia",
-                "gia": 9198,
+                "gia": 9336,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Trắng Việt Nam",
-                "gia": 8200,
+                "gia": 8250,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Trắng Malaysia ASTA",
-                "gia": 12250,
+                "gia": 12200,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             }
@@ -167,7 +167,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -257,7 +257,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -340,7 +340,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -388,7 +388,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -457,7 +457,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -498,7 +498,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -616,7 +616,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -713,7 +713,7 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
@@ -880,7 +880,7 @@
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "18/07/2026",
+        "ngay_cap_nhat": "19/07/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
