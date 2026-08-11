@@ -1,7 +1,7 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
@@ -70,7 +70,7 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
@@ -167,7 +167,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -257,7 +257,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -275,13 +275,6 @@
             },
             {
                 "nhom": "cao_su",
-                "ten": "Cao Su Bà Rịa - Mủ Nước TSC ≥ 30",
-                "gia": 452,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "cao_su",
                 "ten": "Cao Su Bà Rịa - Mủ Nước TSC 25 - < 30",
                 "gia": 447,
                 "don_vi": "đ/kg",
@@ -289,29 +282,15 @@
             },
             {
                 "nhom": "cao_su",
-                "ten": "Cao Su Bà Rịa - Mủ Nước TSC 20 - < 25",
-                "gia": 442,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "cao_su",
-                "ten": "Cao Su Bà Rịa - Mủ Đông DRC ≥ 50%",
-                "gia": 18000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "cao_su",
-                "ten": "Cao Su Bà Rịa - Mủ Đông DRC 45 - 50%",
-                "gia": 16700,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "cao_su",
-                "ten": "Cao Su Bà Rịa - Mủ Đông DRC 35 - 45%",
+                "ten": "Cao Su Bà Rịa - Mủ Đông DRC 35 - 44%",
                 "gia": 13500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "cao_su",
+                "ten": "Cao Su Bà Rịa - Mủ Nguyên Liệu",
+                "gia": 18100,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -340,7 +319,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -388,7 +367,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -457,7 +436,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -498,7 +477,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -616,7 +595,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -657,159 +636,208 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 73500,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại A  - đồng/kg",
-                "gia": 37500,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại B  - đồng/kg",
-                "gia": 25000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại C  - đồng/kg",
-                "gia": 12500,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 53000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại C  - đồng/kg",
-                "gia": 33000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Musang King loại A  - đồng/kg",
-                "gia": 67500,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái VIP loại A  - đồng/kg",
-                "gia": 79000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái VIP loại B  - đồng/kg",
-                "gia": 59000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 79000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 59000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại C  - đồng/kg",
-                "gia": 39000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại A  - đồng/kg",
-                "gia": 39000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại B  - đồng/kg",
-                "gia": 28000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Ri6 loại C  - đồng/kg",
-                "gia": 18000,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "sau_rieng",
-                "ten": "Musang King loại A  - đồng/kg",
+                "ten": "Sầu Thái loại A – ĐBSCL",
                 "gia": 70000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Black Thorn loại A  - đồng/kg",
-                "gia": 112500,
+                "ten": "Sầu Thái loại B – ĐBSCL",
+                "gia": 50000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 79000,
+                "ten": "Sầu riêng Thái dạt – ĐBSCL",
+                "gia": 34000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Ri6 loại A  - đồng/kg",
-                "gia": 39000,
+                "ten": "Sầu riêng Ri6 loại A – ĐBSCL",
+                "gia": 37500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 79500,
+                "ten": "Sầu riêng Ri6 loại B – ĐBSCL",
+                "gia": 25000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại A  - đồng/kg",
-                "gia": 79500,
+                "ten": "Sầu Thái hàng đẹp loại A – Đồng Nai",
+                "gia": 84500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
-                "ten": "Sầu Thái loại B  - đồng/kg",
-                "gia": 59500,
+                "ten": "Sầu Thái hàng đẹp loại B – Đồng Nai",
+                "gia": 60000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại A – Đồng Nai",
+                "gia": 65000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại B – Đồng Nai",
+                "gia": 45000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Xô AB – Đồng Nai",
+                "gia": 41000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại A – Đồng Nai",
+                "gia": 38500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại B – Đồng Nai",
+                "gia": 25000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Musang King loại A – Đồng Nai",
+                "gia": 67500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Musang King loại B – Đồng Nai",
+                "gia": 47500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng đẹp loại A – Đắk Lắk",
+                "gia": 83000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng đẹp loại B – Đắk Lắk",
+                "gia": 65000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại A – Đắk Lắk",
+                "gia": 77000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại B – Đắk Lắk",
+                "gia": 61500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng lỗi loại A – Đắk Lắk",
+                "gia": 58500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng lỗi loại B – Đắk Lắk",
+                "gia": 47000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại A – Đắk Lắk",
+                "gia": 38500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại B – Đắk Lắk",
+                "gia": 24000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Musang King loại A – Đắk Lắk",
+                "gia": 67500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Musang King loại B – Đắk Lắk",
+                "gia": 42500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại A – Gia Lai",
+                "gia": 71500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái loại B – Gia Lai",
+                "gia": 52000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng lỗi – Gia Lai",
+                "gia": 60000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại A – Gia Lai",
+                "gia": 38000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu riêng Ri6 loại B – Gia Lai",
+                "gia": 20000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             }
@@ -817,7 +845,7 @@
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "10/08/2026",
+        "ngay_cap_nhat": "11/08/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
@@ -891,13 +919,6 @@
             },
             {
                 "nhom": "gao",
-                "ten": "Gạo NL IR 50404",
-                "gia": 9650,
-                "don_vi": "đ/kg",
-                "bien_dong": "equal"
-            },
-            {
-                "nhom": "gao",
                 "ten": "Gạo NL OM 18",
                 "gia": 8775,
                 "don_vi": "đ/kg",
@@ -940,7 +961,7 @@
             },
             {
                 "nhom": "gao",
-                "ten": "Gạo Trắng Thông Dụng",
+                "ten": "Gạo Sóc Thường",
                 "gia": 16000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
@@ -976,7 +997,7 @@
             {
                 "nhom": "gao",
                 "ten": "Cám",
-                "gia": 7925,
+                "gia": 7775,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
