@@ -1,7 +1,7 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
@@ -41,42 +41,42 @@
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 11/2026",
-                "gia": 3367,
+                "gia": 3412,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 1/2027",
-                "gia": 3342,
+                "gia": 3387,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 3/2027",
-                "gia": 3321,
+                "gia": 3366,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 12/2026",
-                "gia": 27860,
+                "gia": 28875,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 03/2027",
-                "gia": 27125,
+                "gia": 28090,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 5/2027",
-                "gia": 26890,
+                "gia": 27830,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             }
@@ -84,7 +84,7 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
@@ -181,7 +181,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -271,7 +271,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -354,7 +354,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -402,7 +402,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -618,7 +618,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -659,7 +659,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -784,7 +784,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -825,7 +825,7 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
@@ -851,21 +851,21 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại A – ĐBSCL",
-                "gia": 57500,
+                "gia": 49500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại B – ĐBSCL",
-                "gia": 38000,
+                "gia": 30000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A cơm chuẩn – Đắk Lắk",
-                "gia": 93500,
+                "gia": 93000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -886,28 +886,28 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – Đắk Lắk",
-                "gia": 66000,
+                "gia": 68500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại A – Đắk Lắk",
-                "gia": 73500,
+                "gia": 71000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại B – Đắk Lắk",
-                "gia": 58500,
+                "gia": 56500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Hàng dạt – Đắk Lắk",
-                "gia": 28000,
+                "gia": 29000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -991,7 +991,7 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi – Gia Lai",
-                "gia": 75000,
+                "gia": 72000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1048,7 +1048,7 @@
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "29/09/2026",
+        "ngay_cap_nhat": "30/09/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
