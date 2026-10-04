@@ -1,7 +1,7 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
@@ -77,7 +77,7 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
@@ -174,7 +174,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -264,7 +264,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -347,7 +347,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -395,7 +395,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -541,7 +541,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -582,7 +582,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -707,7 +707,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -748,7 +748,7 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
@@ -971,7 +971,7 @@
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "03/10/2026",
+        "ngay_cap_nhat": "04/10/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
