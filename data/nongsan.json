@@ -1,40 +1,40 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Tây Nguyên",
-                "gia": 91550,
+                "gia": 92550,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Nông",
-                "gia": 92000,
+                "gia": 93000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Lắk",
-                "gia": 91800,
+                "gia": 92800,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Gia Lai",
-                "gia": 91800,
+                "gia": 92800,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Lâm Đồng",
-                "gia": 91100,
+                "gia": 92100,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -84,47 +84,47 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu Gia Lai",
-                "gia": 138000,
+                "gia": 137500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu Đồng Nai",
-                "gia": 138000,
+                "gia": 137500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu TP. Hồ Chí Minh",
-                "gia": 138500,
+                "gia": 138000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu Lâm Đồng",
-                "gia": 140500,
+                "gia": 140000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "tieu",
                 "ten": "Hồ Tiêu Đắk Lắk",
-                "gia": 139500,
+                "gia": 139000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Đen Indonesia",
-                "gia": 6827,
+                "gia": 6769,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
@@ -159,7 +159,7 @@
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Trắng Indonesia",
-                "gia": 9347,
+                "gia": 9268,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
@@ -173,7 +173,7 @@
             {
                 "nhom": "quoc_te",
                 "ten": "Tiêu Trắng Malaysia ASTA",
-                "gia": 12100,
+                "gia": 12000,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             }
@@ -181,7 +181,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -271,7 +271,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -333,7 +333,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -381,7 +381,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -392,7 +392,21 @@
             },
             {
                 "nhom": "ot",
+                "ten": "Ớt chỉ thiên xuất khẩu",
+                "gia": 37000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
                 "ten": "Ớt chỉ thiên hàng chợ",
+                "gia": 32500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt chỉ thiên hàng củ nhì",
                 "gia": 32500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
@@ -413,8 +427,22 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt sừng vàng hàng đẹp",
+                "ten": "Ớt sừng vàng cổ nhất",
                 "gia": 30000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng tơ hàng củ nhất",
+                "gia": 30000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhì",
+                "gia": 24000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -441,6 +469,13 @@
             },
             {
                 "nhom": "ot",
+                "ten": "Ớt chỉ thiên xuất khẩu",
+                "gia": 36500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
                 "ten": "Ớt chỉ thiên hàng chợ",
                 "gia": 32000,
                 "don_vi": "đ/kg",
@@ -448,8 +483,8 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt chỉ thiên hàng bẻ nhiều lứa",
-                "gia": 24500,
+                "ten": "Ớt chỉ thiên hàng củ nhì",
+                "gia": 32000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -462,8 +497,29 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt sừng vàng hàng đẹp",
+                "ten": "Ớt chỉ thiên hàng bẻ nhiều lứa",
+                "gia": 24500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhất",
                 "gia": 29500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng tơ hàng củ nhất",
+                "gia": 29500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhì",
+                "gia": 23500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -490,7 +546,21 @@
             },
             {
                 "nhom": "ot",
+                "ten": "Ớt chỉ thiên xuất khẩu",
+                "gia": 37500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
                 "ten": "Ớt chỉ thiên hàng chợ",
+                "gia": 33000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt chỉ thiên hàng củ nhì",
                 "gia": 33000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
@@ -511,8 +581,22 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt sừng vàng hàng đẹp",
+                "ten": "Ớt sừng vàng cổ nhất",
                 "gia": 30500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng tơ hàng củ nhất",
+                "gia": 30500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhì",
+                "gia": 24500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -539,7 +623,21 @@
             },
             {
                 "nhom": "ot",
+                "ten": "Ớt chỉ thiên xuất khẩu",
+                "gia": 33000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
                 "ten": "Ớt chỉ thiên hàng chợ",
+                "gia": 28500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt chỉ thiên hàng củ nhì",
                 "gia": 28500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
@@ -560,8 +658,22 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt sừng vàng hàng đẹp",
+                "ten": "Ớt sừng vàng cổ nhất",
                 "gia": 26000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng tơ hàng củ nhất",
+                "gia": 26000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhì",
+                "gia": 20000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -588,7 +700,21 @@
             },
             {
                 "nhom": "ot",
+                "ten": "Ớt chỉ thiên xuất khẩu",
+                "gia": 31000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
                 "ten": "Ớt chỉ thiên hàng chợ",
+                "gia": 26500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt chỉ thiên hàng củ nhì",
                 "gia": 26500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
@@ -609,8 +735,22 @@
             },
             {
                 "nhom": "ot",
-                "ten": "Ớt sừng vàng hàng đẹp",
+                "ten": "Ớt sừng vàng cổ nhất",
                 "gia": 24000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng tơ hàng củ nhất",
+                "gia": 24000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "ot",
+                "ten": "Ớt sừng vàng cổ nhì",
+                "gia": 18000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -632,7 +772,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -673,7 +813,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -798,7 +938,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -839,26 +979,26 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – ĐBSCL",
-                "gia": 83500,
+                "gia": 81500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – ĐBSCL",
-                "gia": 61500,
+                "gia": 60000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại C – ĐBSCL",
-                "gia": 33500,
+                "gia": 38500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -872,14 +1012,14 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại A – ĐBSCL",
-                "gia": 70000,
+                "gia": 73500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại B – ĐBSCL",
-                "gia": 53500,
+                "gia": 60000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -921,28 +1061,28 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – Đắk Lắk",
-                "gia": 86000,
+                "gia": 85500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – Đắk Lắk",
-                "gia": 63000,
+                "gia": 65500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại A – Đắk Lắk",
-                "gia": 66500,
+                "gia": 70000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại B – Đắk Lắk",
-                "gia": 66500,
+                "gia": 70000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1054,7 +1194,7 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – Lâm Đồng",
-                "gia": 82500,
+                "gia": 76500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1078,12 +1218,26 @@
                 "gia": 62500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái dạt – Lâm Đồng",
+                "gia": 30000,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
+            },
+            {
+                "nhom": "sau_rieng",
+                "ten": "Sầu Thái hàng kem – Lâm Đồng",
+                "gia": 13500,
+                "don_vi": "đ/kg",
+                "bien_dong": "equal"
             }
         ]
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "19/10/2026",
+        "ngay_cap_nhat": "20/10/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
