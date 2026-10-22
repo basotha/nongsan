@@ -1,82 +1,82 @@
 {
     "ca-phe": {
         "ten": "Giá Cà Phê",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Tây Nguyên",
-                "gia": 92550,
+                "gia": 92750,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Nông",
-                "gia": 93000,
+                "gia": 93200,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Đắk Lắk",
-                "gia": 92800,
+                "gia": 93000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Gia Lai",
-                "gia": 92800,
+                "gia": 93000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "cafe",
                 "ten": "Cà phê Lâm Đồng",
-                "gia": 92100,
+                "gia": 92300,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 11/2026",
-                "gia": 3414,
+                "gia": 3484,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 1/2027",
-                "gia": 3405,
+                "gia": 3480,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Robusta kỳ hạn tháng 3/2027",
-                "gia": 3378,
+                "gia": 3458,
                 "don_vi": "USD/Tấn",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 12/2026",
-                "gia": 30560,
+                "gia": 31570,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 03/2027",
-                "gia": 29450,
+                "gia": 30225,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "quoc_te",
                 "ten": "Cà phê Arabica kỳ hạn tháng 5/2027",
-                "gia": 29050,
+                "gia": 29745,
                 "don_vi": "US Cent/lb",
                 "bien_dong": "equal"
             }
@@ -84,7 +84,7 @@
     },
     "ho-tieu": {
         "ten": "Giá Hồ Tiêu",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "tieu",
@@ -181,7 +181,7 @@
     },
     "hat-dieu": {
         "ten": "Giá Hạt Điều",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "dieu",
@@ -271,7 +271,7 @@
     },
     "cao-su": {
         "ten": "Giá Cao Su",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "cao_su",
@@ -333,7 +333,7 @@
     },
     "cacao": {
         "ten": "Giá Cacao",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "cacao",
@@ -381,7 +381,7 @@
     },
     "ot": {
         "ten": "Giá Ớt",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "ot",
@@ -772,7 +772,7 @@
     },
     "khoai-lang": {
         "ten": "Giá Khoai Lang",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "khoai_lang",
@@ -813,7 +813,7 @@
     },
     "macca": {
         "ten": "Giá Mắc Ca",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "macca",
@@ -825,21 +825,21 @@
             {
                 "nhom": "macca",
                 "ten": "Macca tươi Đắk Lắk",
-                "gia": 78000,
+                "gia": 80000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "macca",
                 "ten": "Macca tươi Lâm Đồng",
-                "gia": 80000,
+                "gia": 78500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "macca",
                 "ten": "Macca tươi Đắk Nông",
-                "gia": 80000,
+                "gia": 82000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -938,7 +938,7 @@
     },
     "bo": {
         "ten": "Giá Bơ",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "bo",
@@ -979,19 +979,19 @@
     },
     "sau-rieng": {
         "ten": "Giá Sầu Riêng",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – ĐBSCL",
-                "gia": 84500,
+                "gia": 87000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – ĐBSCL",
-                "gia": 63500,
+                "gia": 67000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1012,21 +1012,21 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại A – ĐBSCL",
-                "gia": 75000,
+                "gia": 76500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại B – ĐBSCL",
-                "gia": 61500,
+                "gia": 64000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu riêng Ri6 loại C – ĐBSCL",
-                "gia": 30000,
+                "gia": 31500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1061,28 +1061,28 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – Đắk Lắk",
-                "gia": 87500,
+                "gia": 89000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – Đắk Lắk",
-                "gia": 67500,
+                "gia": 66000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại A – Đắk Lắk",
-                "gia": 71500,
+                "gia": 69000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng lỗi loại B – Đắk Lắk",
-                "gia": 71500,
+                "gia": 69000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1103,14 +1103,14 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái dạt – Đắk Lắk",
-                "gia": 29000,
+                "gia": 30000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái hàng kem – Đắk Lắk",
-                "gia": 13500,
+                "gia": 14000,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1194,14 +1194,14 @@
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại A – Lâm Đồng",
-                "gia": 79000,
+                "gia": 77500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "sau_rieng",
                 "ten": "Sầu Thái loại B – Lâm Đồng",
-                "gia": 59000,
+                "gia": 57500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1279,19 +1279,19 @@
     },
     "gao": {
         "ten": "Giá Lúa Gạo",
-        "ngay_cap_nhat": "21/10/2026",
+        "ngay_cap_nhat": "22/10/2026",
         "du_lieu": [
             {
                 "nhom": "gao",
                 "ten": "Lúa OM 18",
-                "gia": 6250,
+                "gia": 6500,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
             {
                 "nhom": "gao",
                 "ten": "Lúa Đài Thơm 8",
-                "gia": 6300,
+                "gia": 6400,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1368,7 +1368,7 @@
             {
                 "nhom": "gao",
                 "ten": "Gạo NL IR 504",
-                "gia": 8950,
+                "gia": 8800,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
@@ -1480,7 +1480,7 @@
             {
                 "nhom": "gao",
                 "ten": "Cám",
-                "gia": 8125,
+                "gia": 8150,
                 "don_vi": "đ/kg",
                 "bien_dong": "equal"
             },
